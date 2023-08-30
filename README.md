@@ -1,23 +1,27 @@
-# Predict House Prices in Boston
+# Boston in the '70s: A Residential Pricing Model using Multivariable Regression
 <img src=https://i.imgur.com/WKQ0nH2.jpg height=350>
 
 ## Project Description
-Welcome to Boston Massachusetts in the 1970s!
-Imagine you're working for a real estate development company. Your company wants to value any residential project before they start. You are tasked with building a model that can provide a price estimate based on a home's characteristics like:
+I undertook this project as part of the "100 Days of Code: The Complete Python Pro Bootcamp for 2023."
+This course was crafted by the esteemed Dr. Angela Yu, an experienced developer and a passionate educator.
+I greatly enjoyed this project, and after making a few enhancements, I chose to include it in my project portfolio.
 
+The core concept of this project is to transport you back to Boston, Massachusetts, during the 1970s.
+While working for a real estate development company, your firm aims to assess the value of residential projects before initiation.
+Your responsibility is to construct a model that can furnish a price estimate grounded in a home's attributes, such as:
 - The number of rooms
 - The distance to employment centres
 - How rich or poor the area is
 - How many students there are per teacher in local schools
 
-To accomplish your task you will:
+Main tasks:
 
 1. Analyse and explore the Boston house price data
 2. Split the data for training and testing
-3. Run a Multivariable Regression
-4. Evaluate how your model's coefficients and residuals
-5. Use data transformation to improve your model performance
-6. Use your model to estimate a property price
+3. Run a Multivariable Regression 
+4. Evaluate model's coefficients and residuals 
+5. Use data transformation to improve model performance 
+6. Use this model to estimate a property price
 
 ## Dataset Overview
 ### Source
@@ -49,14 +53,16 @@ Number of Attributes: 13 numeric/categorical predictive. The Median Value (attri
     Creator: Harrison, D. and Rubinfeld, D.L.
 
 ## Setup & Requirements
+Python libraries used:
+* pandas
+* numpy
+* seaborn
+* plotly
+* matplotlib
+* sklearn (LinearRegression, train_test_split)
 
 ## Methodology
-* Exploratory data analysis (EDA)
+* Initial Data Analysis 
 * Descriptive statistics
-* Time series analysis
-
-## Findings & Conclusions
-
-## Project Structure
-
-## Changelog/Updates
+* Multivariable regression
+* Regression model improvement using a log data transformation
